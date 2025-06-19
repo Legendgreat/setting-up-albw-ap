@@ -2,7 +2,7 @@
 
 ## Preface
 
-This guide is made with Windows environments in mind. If you are on macOS or Linux, I will create a different guide for those in the future.
+This guide is made with Windows and Linux environments in mind. If you are a Linux user, this guide will not work with the AppImage version of Archipelago. Use .tar.gz instead.
 
 ## What you need
 
@@ -141,7 +141,7 @@ The location of the albw.apworld file and albwrandomizer folder are very specifi
 
 If your folder structure matches the outline, see if either the .apworld or albwrandomizer are outdated.
 
-<sub>If you are trying to do this on Linux, your folder structure will be slightly different. We couldn't figure out how to make this work on Linux, so please wait for a Linux-specific guide.</sub>
+<sub>If you are trying to do this on Linux, please use the .tar.gz version of Archipelago instead of AppImage. This outline will _not_ work on the AppImage version.</sub>
 
 ### Azahar crashes
 
