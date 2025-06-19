@@ -2,7 +2,21 @@
 
 ## Preface
 
-This guide is made with Windows and Linux environments in mind. If you are a Linux user, this guide will not work with the `AppImage` version of Archipelago. Use `.tar.gz` instead.
+If you came here to troubleshoot while joining or hosting a sync, I recommend switching to another game for that sync and troubleshooting later.
+
+The setup is a little finnicky and the reason it doesn't work on your machine can have lots of different reasons.
+
+You don't wanna be the person who is troubleshooting for an hour while the rest is waiting on you.
+
+## Platform disclaimer
+
+##### Windows
+
+This guide should work flawlessly for any machine running Windows 10+.
+
+##### Linux
+
+For Linux, I recommend getting the `.tar.gz` version of Archipelago; this guide should work for that version. The `AppImage` version is more complex and I might make a guide for that in the future, but currently this guide will not work.
 
 ## What you need
 
@@ -48,8 +62,6 @@ Archipelago
 └─ ...
 </pre>
 
-If anything doesn't work, refer to the troubleshooting section below.
-
 ## Setting up Azahar
 
 Now that you have Archipelago set up correctly, we can move on to setting up Azahar so that it's ready for ALBW.
@@ -63,7 +75,7 @@ Assuming you have Azahar installed properly, we want to set up 3 things to be ab
 
 ### Dumping a valid patchable ROM
 
-This guide does not condone piracy, and as such will not help with finding illicit ROMs, so instead we will focus on dumping a legal game from 3DS hardware.
+This guide does not condone piracy, and as such will not help with finding illicit ROMs. Instead we will focus on dumping a legal game from 3DS hardware.
 
 The ROM we need should be in the _North America_ region. If you already have a ROM, you can quickly see if it's of North American region by opening up Azahar and adding an application directory pointing to the ROM. Under "Region" it should say "North America", if it doesn't, you will need a different ROM.
 
@@ -77,11 +89,13 @@ Assuming you now have decrypted North American version of ALBW in `.3ds` format,
 
 To do so, you will need a `.apalbw` file.
 
-##### Getting an .apalbw file
+##### Getting a .apalbw file
 
-If you are joining a sync, you can get this file from the host. Ask them for the zip file, or the .apalbw file inside the zip.
+To get your `.apalbw` file, Archipelago will need to generate a seed. Again, I recommend doing this in a test gen or for a solo run before trying to do this while joining or hosting a sync, to avoid having to troubleshoot while other players are waiting on you.
 
-If you are hosting a sync, or doing a solo run, we will first need to generate a seed. To do this, simply click on `Generate` in the Archipelago Launcher, and click on `Browse Files` after that and browse to the `output` folder. In there you will find a `AP_xxxxxxx.zip` file, which will contain your `.apalbw` file. If you instead got an error trying to generate, refer to the troubleshooting section below.
+If you are joining a sync, you can get this file from the host. Ask them for the zip file, or the `.apalbw` file inside the zip.
+
+If you are doing a solo run or hosting a sync, we will first need to generate a seed. To do this, simply click on `Generate` in the Archipelago Launcher, and click on `Browse Files` after that and browse to the `output` folder. In there you will find a `AP_xxxxxxx.zip` file, which will contain your `.apalbw` file. If you instead got an error trying to generate, refer to the troubleshooting section below.
 
 ##### Creating a patch folder
 
@@ -114,7 +128,7 @@ Azahar has an RPC server that allows the ALBW patch to connect to Archipelago. B
 
 Azahar does not allow you to use `.3ds` files to play games, only `.cci` files, but we need a `.3ds` file to patch. As such, you might find it handy to duplicate your `.3ds` rom (copy > paste), and simply changing the file extension from `.3ds` to `.cci`. This works perfectly fine, and will allow Azahar to run the game.
 
-If you have done all these correctly, you should be able to simply start the game in Azahar, and connect to your Archipelago sync. If working correctly, the Archipelago Client should say `Connected` and all the `Room Information` below. If you do not see `Emulator connected`, refer to the troubleshooting section below.
+If you have done all these steps correctly, you should be able to simply start the game in Azahar, and connect to your Archipelago sync. If working correctly, the Archipelago Client should say `Connected` and all the `Room Information` below. If you do not see `Emulator connected`, refer to the troubleshooting section below.
 
 ## Troubleshooting
 
