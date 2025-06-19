@@ -30,6 +30,7 @@ In custom worlds, you simply drag and drop the albw.apworld file.
 In lib, we want to extract the _contents_ of the albwrandomizer.zip. It should be a folder called "albwrandomizer".
 
 Finally, in Players you place the A.Link.Between.Worlds.yaml file. This yaml file contains your options, and you will want to adjust those, or at the very least change the Player name in there. I recommend [VSCode](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/) for this.
+
 <sub>You can name this file anything you'd like, it doesn't have to be A.Link.Between.Worlds.yaml, I'm just maintaining this name for the guide.</sub>
 
 If you have done all this, Archipelago should be set up properly, and should look like the following outline:
