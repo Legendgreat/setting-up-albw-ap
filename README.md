@@ -56,16 +56,16 @@ Now that you have Archipelago set up correctly, we can move on to setting up Aza
 
 Assuming you have Azahar installed properly, we want to set up 3 things to be able to play ALBW in Archipelago.
 
-- Getting a working ROM
+- Dumping a valid patchable ROM
 - Creating a patch folder
 - Turning on RPC server
 - Duplicating your ROM (optional)
 
-### Getting a working ROM
+### Dumping a valid patchable ROM
+
+This guide does not condone piracy, and as such will not help with finding illicit ROMs, so instead we will focus on dumping a legal game from 3DS hardware.
 
 The ROM we need should be in the _North America_ region. If you already have a ROM, you can quickly see if it's of North American region by opening up Azahar and adding an application directory pointing to the ROM. Under "Region" it should say "North America", if it doesn't, you will need a different ROM.
-This guide does not condone piracy, and as such will not help with finding illicit ROMs, but there are plenty of guides on where to find them on Google if you bought the game previously but not in the right region.
-Instead we will focus on dumping a legal game from 3DS hardware.
 
 ##### Dumping and decrypting a ROM
 
