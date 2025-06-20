@@ -21,7 +21,7 @@ For Linux, I recommend getting the `.tar.gz` version of Archipelago; this guide 
 ## What you need
 
 - [ ] The latest version of [Azahar](https://azahar-emu.org/) ([GitHub releases](https://github.com/azahar-emu/azahar/releases)) or Citra/Lime3DS.
-- [ ] A decrypted The Legend of Zelda: A Link Between Worlds ROM of the North American release.
+- [ ] A decrypted, untrimmed and North American version of The Legend of Zelda: A Link Between Worlds ROM.
 - [ ] All 3 files of the latest release of [albw-archipelago](https://github.com/randomsalience/albw-archipelago/releases) by randomsalience.
   - `A.Link.Between.Worlds.yaml` (you can have Archipelago generate a template yaml as well after setting up the other two)
   - `albw.apworld`
@@ -85,11 +85,13 @@ The ROM we need should be in the _North America_ region. If you already have a R
 
 ##### Dumping and decrypting a ROM
 
-There is a very in-depth guide [here](https://3ds.hacks.guide/dumping-titles-and-game-cartridges.html) that explains in detail how to dump a ROM and what you need, which I recommend you follow to the tee if you don't want to accidentally brick your 3DS. At the very bottom of the same guide [here](https://3ds.hacks.guide/dumping-titles-and-game-cartridges.html#encrypting-decrypting-a-cia-file), there is also a guide on how to decrypt ROMs. You have to follow these steps as well to be able to use it for Archipelago.
+There is a very in-depth guide [here](https://3ds.hacks.guide/dumping-titles-and-game-cartridges.html) that explains in detail how to dump a ROM and what you need, which I recommend you follow to the tee if you don't want to accidentally brick your 3DS. At the very bottom of the same guide [here](https://3ds.hacks.guide/dumping-titles-and-game-cartridges.html#encrypting-decrypting-a-cia-file), there is also a guide on how to decrypt ROMs.
+
+When you dump your rom, make sure to have Godmode9 make an untrimmed version, and decrypt it as well. The next step will _not_ work with an encrypted, or trimmed version of the ROM.
 
 ### Creating a patch folder
 
-Assuming you now have decrypted North American version of ALBW in `.3ds` format, we can continue with creating a patch folder that you will need to randomize your game and connect to the Archipelago client.
+Assuming you now have decrypted, untrimmed and North American version of ALBW in `.3ds` format, we can continue with creating a patch folder that you will need to randomize your game and connect to the Archipelago client.
 
 To do so, you will need a `.apalbw` file.
 
