@@ -2,7 +2,7 @@
 
 ## Preface
 
-If you came here to troubleshoot while joining or hosting a sync, I recommend switching to another game for that sync and troubleshooting later.
+If you came here to troubleshoot while joining or hosting a sync/async, I recommend switching to another game for now and troubleshooting later.
 
 The setup is a little finnicky and the reason it doesn't work on your machine can have lots of different reasons.
 
