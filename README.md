@@ -144,7 +144,7 @@ A final test you can do to see if everything is working properly is to start you
 
 ## Troubleshooting
 
-### Generating exceptions
+### Archipelago exceptions
 
 ##### Exception: No world found to handle game A Link Between Worlds
 
@@ -168,6 +168,10 @@ The location of the `albw.apworld` file and `albwrandomizer` folder are very spe
 If your folder structure matches the outline, see if either the `.apworld` or `albwrandomizer` are outdated.
 
 <sub>If you are trying to do this on Linux, please use the `.tar.gz` version of Archipelago instead of `AppImage`. This outline will _not_ work on the `AppImage` version.</sub>
+
+##### The running game was not patched with an Archipelago patch.
+
+If you got this error on Archipelago Client after patching and running the game in Azahar, chances are you used a _trimmed_ version of the ROM to create a patch folder. To fix this, you will have to dump an untrimmed version of the ROM and run the patch again.
 
 ### Azahar crashes
 
