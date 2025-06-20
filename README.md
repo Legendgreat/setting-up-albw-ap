@@ -20,7 +20,7 @@ For Linux, I recommend getting the `.tar.gz` version of Archipelago; this guide 
 
 ## What you need
 
-- [ ] The latest version of [Azahar](https://azahar-emu.org/) ([GitHub releases](https://github.com/azahar-emu/azahar/releases))
+- [ ] The latest version of [Azahar](https://azahar-emu.org/) ([GitHub releases](https://github.com/azahar-emu/azahar/releases)) or Citra/Lime3DS.
 - [ ] A decrypted The Legend of Zelda: A Link Between Worlds ROM of the North American release.
 - [ ] All 3 files of the latest release of [albw-archipelago](https://github.com/randomsalience/albw-archipelago/releases) by randomsalience.
   - `A.Link.Between.Worlds.yaml` (you can have Archipelago generate a template yaml as well after setting up the other two)
@@ -43,7 +43,9 @@ In `custom_worlds`, you simply drag and drop the `albw.apworld` file.
 
 In `lib`, we want to extract the _contents_ of the `albwrandomizer.zip`. It should be a folder called `albwrandomizer`.
 
-Finally, in `Players` you place the `A.Link.Between.Worlds.yaml` file. This yaml file contains your options, and you will want to adjust those, or at the very least change the Player name in there. I recommend [VSCode](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/) for this.
+Finally, in `Players` you place the `A.Link.Between.Worlds.yaml` file. This yaml file contains your randomization options, and you will want to adjust those, or at the very least change the Player name in there. I recommend [VSCode](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/) for this.
+
+If you want to change your options, most of the settings have comments above them about what they do and how to set them, but there is a more detailed guide [here](https://github.com/rickfay/z17-randomizer/blob/master/README.md) that explains in detail what all the options do. There is another even more detailed guide [here](https://archipelago.gg/tutorial/Archipelago/advanced_settings/en) on Archipelago's website that explains .yaml files in general, how they work and all the ways you can configure them.
 
 <sub>You can name this file anything you'd like, it doesn't have to be A.Link.Between.Worlds.yaml, I'm just maintaining this name for the guide.</sub>
 
@@ -62,9 +64,11 @@ Archipelago
 └─ ...
 </pre>
 
-## Setting up Azahar
+## Setting up Azahar/Citra/Lime3DS
 
-Now that you have Archipelago set up correctly, we can move on to setting up Azahar so that it's ready for ALBW.
+Now that you have Archipelago set up correctly, we can move on to setting up your emulator so that it's ready for ALBW.
+
+It's recommended to use Azahar as Azahar is the only 3DS emulator that is still being maintained. That being said, Citra and Lime3DS will work fine if you already have one of those installed, although file paths might be slightly different. If you run into any Citra/Lime3DS specific issues, please upgrade to Azahar before asking for help. I will refer to Azahar often from this point in the guide, but if you are using Citra or Lime3DS just mentally swap the name.
 
 Assuming you have Azahar installed properly, we want to set up 3 things to be able to play ALBW in Archipelago.
 
@@ -91,15 +95,17 @@ To do so, you will need a `.apalbw` file.
 
 ##### Getting a .apalbw file
 
-To get your `.apalbw` file, Archipelago will need to generate a seed. Again, I recommend doing this in a test gen or for a solo run before trying to do this while joining or hosting a sync, to avoid having to troubleshoot while other players are waiting on you.
+To get your `.apalbw` file, Archipelago will need to generate a seed. Again, I recommend doing this in a test gen or for a solo run before trying to do this while joining or hosting a sync/async, to avoid having to troubleshoot while other players are waiting on you.
 
-If you are joining a sync, you can get this file from the host. Ask them for the zip file, or the `.apalbw` file inside the zip.
+If you are joining a sync/async, you can get this file from the host. Ask them for the zip file, or the `.apalbw` file inside the zip.
 
-If you are doing a solo run or hosting a sync, we will first need to generate a seed. To do this, simply click on `Generate` in the Archipelago Launcher, and click on `Browse Files` after that and browse to the `output` folder. In there you will find a `AP_xxxxxxx.zip` file, which will contain your `.apalbw` file. If you instead got an error trying to generate, refer to the troubleshooting section below.
+If you are doing a solo run or hosting a sync/async, we will first need to generate a seed. To do this, simply click on `Generate` in the Archipelago Launcher, and click on `Browse Files` after that and browse to the `output` folder. In there you will find a `AP_xxxxxxx.zip` file, which will contain your `.apalbw` file. If you instead got an error trying to generate, refer to the troubleshooting section below.
 
 ##### Creating a patch folder
 
 Now that you have your `.apalbw` file, either drag your file onto the Archipelago Launcher, or click on `Open Patch` in the launcher. This will open a file select that will ask you to point to the patch (only if you clicked on "Open Patch"), and next another file select that will ask you to point to your ROM (only when doing this for the first time). After you did this, you will find a `AP_xxx...\_P#\_Player.zip` file next to your ROM file.
+
+If you opened an invalid ROM during this step, and `Open Patch` keeps selecting that invalid ROM by default, you can rename it or delete it to get the ROM file select menu again.
 
 ##### Loading your mod
 
@@ -120,7 +126,7 @@ Azahar
 └─ ...
 </pre>
 
-### Turning on RPC server
+### Turning on RPC server (only in Azahar v2121+)
 
 Azahar has an RPC server that allows the ALBW patch to connect to Archipelago. By default, it's turned off and it won't connect. To turn it on, simply go to `Azahar > Emulation > Configure > Debug` and `Enable RPC server`.
 
@@ -128,7 +134,11 @@ Azahar has an RPC server that allows the ALBW patch to connect to Archipelago. B
 
 Azahar does not allow you to use `.3ds` files to play games, only `.cci` files, but we need a `.3ds` file to patch. As such, you might find it handy to duplicate your `.3ds` rom (copy > paste), and simply changing the file extension from `.3ds` to `.cci`. This works perfectly fine, and will allow Azahar to run the game.
 
-If you have done all these steps correctly, you should be able to simply start the game in Azahar, and connect to your Archipelago sync. If working correctly, the Archipelago Client should say `Connected` and all the `Room Information` below. If you do not see `Emulator connected`, refer to the troubleshooting section below.
+If you have done all these steps correctly, you should be able to simply start the game in Azahar, and connect to your Archipelago room port (`archipelago.gg:#####`). If working correctly, the Archipelago Client should say `Connected` and all the `Room Information` below. If you do not see `Emulator connected`, refer to the troubleshooting section below.
+
+## Test your setup
+
+A final test you can do to see if everything is working properly is to start your game in Azahar, going to file select, and see if the code of the seed is displayed in a bunch of symbols at the top. If it is, it means you properly genned, patched, and set up Azahar.
 
 ## Troubleshooting
 
