@@ -105,7 +105,7 @@ If you are doing a solo run or hosting a sync/async, we will first need to gener
 
 ##### Creating a patch folder
 
-Now that you have your `.apalbw` file, either drag your file onto the Archipelago Launcher, or click on `Open Patch` in the launcher. This will open a file select that will ask you to point to the patch (only if you clicked on "Open Patch"), and next another file select that will ask you to point to your ROM (only when doing this for the first time). After you did this, you will find a `AP_xxx...\_P#\_Player.zip` file next to your ROM file.
+Now that you have your `.apalbw` file, either drag your file onto the Archipelago Launcher, or click on `Open Patch` in the launcher. This will open a file select that will ask you to point to the patch (only if you clicked on "Open Patch"), and next another file select that will ask you to point to your ROM (only when doing this for the first time). After you did this, you will find a `AP_xxx...\_P#\_Player.zip` file next to your .apalbw file.
 
 If you opened an invalid ROM during this step, and `Open Patch` keeps selecting that invalid ROM by default, you can rename it or delete it to get the ROM file select menu again.
 
