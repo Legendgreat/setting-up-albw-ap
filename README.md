@@ -85,7 +85,7 @@ The ROM we need should be in the _North America_ region. If you already have a R
 
 ##### Dumping and decrypting a ROM
 
-There is a very in-depth guide [here](https://3ds.hacks.guide/dumping-titles-and-game-cartridges.html#dumping-a-game-cartridge) (see section of "Dumping a game cartridge") that explains in detail how to dump a ROM and what you need, which I recommend you follow to the tee if you don't want to accidentally brick your 3DS. At the very bottom of the same guide [here](https://3ds.hacks.guide/dumping-titles-and-game-cartridges.html#encrypting-decrypting-a-cia-file), there is also a guide on how to decrypt ROMs.
+There is a very in-depth guide [here](https://3ds.hacks.guide/dumping-titles-and-game-cartridges.html#dumping-a-game-cartridge) (see section of "Dumping a game cartridge") that explains in detail how to dump a ROM and what you need, which I recommend you follow to the tee if you don't want to accidentally brick your 3DS. At the very bottom of the same guide [here](https://3ds.hacks.guide/dumping-titles-and-game-cartridges.html#encrypting-decrypting-a-cia-file), there is also a guide on how to decrypt ROMs. Alternatively, you can decrypt on Windows as well using [this](https://gbatemp.net/download/batch-cia-3ds-decryptor.35098/), if you forgot this step and already moved your ROM to your machine.
 
 When you dump your rom, make sure to have Godmode9 make an untrimmed version of .3ds format, and decrypt it as well. The next step will _not_ work with an encrypted, or trimmed version of the ROM.
 
