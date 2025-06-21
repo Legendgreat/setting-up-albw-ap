@@ -85,9 +85,9 @@ The ROM we need should be in the _North America_ region. If you already have a R
 
 ##### Dumping and decrypting a ROM
 
-There is a very in-depth guide [here](https://3ds.hacks.guide/dumping-titles-and-game-cartridges.html) that explains in detail how to dump a ROM and what you need, which I recommend you follow to the tee if you don't want to accidentally brick your 3DS. At the very bottom of the same guide [here](https://3ds.hacks.guide/dumping-titles-and-game-cartridges.html#encrypting-decrypting-a-cia-file), there is also a guide on how to decrypt ROMs.
+There is a very in-depth guide [here](https://3ds.hacks.guide/dumping-titles-and-game-cartridges.html#dumping-a-game-cartridge) (see section of "Dumping a game cartridge") that explains in detail how to dump a ROM and what you need, which I recommend you follow to the tee if you don't want to accidentally brick your 3DS. At the very bottom of the same guide [here](https://3ds.hacks.guide/dumping-titles-and-game-cartridges.html#encrypting-decrypting-a-cia-file), there is also a guide on how to decrypt ROMs.
 
-When you dump your rom, make sure to have Godmode9 make an untrimmed version, and decrypt it as well. The next step will _not_ work with an encrypted, or trimmed version of the ROM.
+When you dump your rom, make sure to have Godmode9 make an untrimmed version of .3ds format, and decrypt it as well. The next step will _not_ work with an encrypted, or trimmed version of the ROM.
 
 ### Creating a patch folder
 
