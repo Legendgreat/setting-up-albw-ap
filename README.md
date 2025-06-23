@@ -57,7 +57,8 @@ Archipelago
 │  └─ albw.apworld
 ├─ lib
 │  └─ albwrandomizer
-│     ├─ __pycache__
+│     ├─ __init__.py
+│     ├─ albwrandomizer.cp311-win_amd64.pyd
 │     └─ ...
 ├─ Players
 │  └─ A.Link.Between.Worlds.yaml
