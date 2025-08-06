@@ -35,7 +35,7 @@ So, if you are stuck in your run or you wonder if something is or isn't possible
 
 #### DO NOT TALK TO HINT GHOSTS
 
-In the most recent version of ALBW AP World by randomsalience (v0.1.3), most hint ghosts will have their default text, but some of them will softlock your game. This is due to an update of the standalone randomizer where hint ghosts will give hints about the randomized logic. This only got partially implemented and is currently very buggy. It's recommended to just avoid hint ghosts altogether.
+In the most recent version of ALBW AP World by randomsalience (v0.1.3), most hint ghosts will have their default text, but some of them will softlock your game. This is due to an update of the standalone randomizer where hint ghosts will give hints about the randomized logic. This only got partially implemented and is currently very buggy. It's recommended to just avoid hint ghosts altogether until they get fixed.
 
 #### Portrait/Pendant locations
 
