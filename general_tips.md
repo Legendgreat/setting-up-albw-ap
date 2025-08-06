@@ -14,15 +14,15 @@ So, if you are stuck in your run or you wonder if something is or isn't possible
 
 ##### General links
 
-[Archipelago](https://archipelago.gg)
-[Archipelago Discord](https://discord.gg/8Z65BR2) (You can find the ALBW community under #future-game-design/The Legend of Zelda: A Link Between World)
-[ALBW AP World](https://github.com/randomsalience/albw-archipelago) (made by Caroline or randomsalience)
-[ALBW AP for original 3DS Hardware](https://github.com/LittleCube-hax/albw-ap-plugin) (Made by LittleCube, not as up to date as Caroline's AP World)
+[Archipelago](https://archipelago.gg)  
+[Archipelago Discord](https://discord.gg/8Z65BR2) (You can find the ALBW community under #future-game-design/The Legend of Zelda: A Link Between World)  
+[ALBW AP World](https://github.com/randomsalience/albw-archipelago) (made by Caroline or randomsalience)  
+[ALBW AP for original 3DS Hardware](https://github.com/LittleCube-hax/albw-ap-plugin) (Made by LittleCube, not as up to date as Caroline's AP World)  
 [Standalone ALBW Randomizer](https://github.com/rickfay/z17-randomizer) (RickWithAnH)
 
 ##### Trackers
 
-[ALBW AP Tracker](https://github.com/Legendgreat/albw-ap-poptracker) (The only one still being maintained currently for use with Archipelago for auto-tracking, made by me)
+[ALBW AP Tracker](https://github.com/Legendgreat/albw-ap-poptracker) (The only one still being maintained currently for use with Archipelago for auto-tracking, made by me)  
 [ALBW Emotracker](https://github.com/rickfay/ALBW-Randomizer-Tracker) (RickWithAnH)
 
 [Crack Tracker](https://firedrox.github.io/albw/?page=portals)
