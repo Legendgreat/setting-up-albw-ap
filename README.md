@@ -133,6 +133,10 @@ Azahar
 
 Azahar has an RPC server that allows the ALBW patch to connect to Archipelago. By default, it's turned off and it won't connect. To turn it on, simply go to `Azahar > Emulation > Configure > Debug` and `Enable RPC server`.
 
+### Emulator language
+
+Changing the emulator language is akin to changing your 3DS language, in that the game itself will mimic the language. This is to say that the randomized game only works in English. If you have your emulator language set to French or Spanish, the game will not work properly with AP. Any other language besides those two will default back to English and work properly, except French and Spanish.
+
 ### Duplicating your ROM file (optional)
 
 Azahar does not allow you to use `.3ds` files to play games, only `.cci` files, but we need a `.3ds` file to patch. As such, you might find it handy to duplicate your `.3ds` rom (copy > paste), and simply changing the file extension from `.3ds` to `.cci`. This works perfectly fine, and will allow Azahar to run the game.
@@ -189,3 +193,7 @@ If Azahar crashes when loading ALBW after extracting your mod folder into `load/
 ### Connecting to emulator...
 
 Make sure you have enabled the RPC server in Azahar by going to `Emulation > Configure > Debug` and enabling RPC server.
+
+### Archipelago is connected to the emulator but the game isn't randomized
+
+Please make sure your game is English and not French or Spanish. The randomizer only works in English. To change this, change the emulator language to any language *but* French or Spanish. Non English/French/Spanish emulator languages will default to English on the North American version.
