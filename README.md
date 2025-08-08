@@ -1,3 +1,5 @@
+The guide has moved to the wiki, along with a new tips and tricks page. Click [here](https://github.com/Legendgreat/setting-up-albw-ap/wiki) to go there.
+
 # Setting up ALBW for Archipelago
 
 ## Preface
